@@ -2,12 +2,15 @@ programa
 {
 	funcao inicio()
 	{
+		// declaração de variáveis
 		real termo1 = 34
 		real termo2 = 55
 		real proxTermo
-		
+
+		// exibindo termo1 e termo2 com quebra de linha
 		escreva (termo1, "\n", termo2, "\n")
-		
+
+		// declarando variável i; condicionando o contador; adicionando ao contador
 		para (inteiro i = 0; i<1000; i++){
 			proxTermo = termo1 + termo2
 			
